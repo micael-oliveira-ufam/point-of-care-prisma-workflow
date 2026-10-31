@@ -1,0 +1,54 @@
+% PRISMA 2020 flow diagram, redrawn as vector graphics (resolution independent) from the figure in the source .docx.
+% Template: Page MJ et al. BMJ 2021;372:n71 (CC BY 4.0).
+% Design: phase bands on the left, tinted phase panels, exclusion boxes set apart in grey.
+% Greyscale-safe: the three phase colours differ in CIE L* (checked in c_gray.R).
+\definecolor{pIdn}{RGB}{31,78,121}   % identification (navy)
+\definecolor{pScr}{RGB}{0,121,107}   % screening (teal)
+\definecolor{pInc}{RGB}{20,90,30}    % included (dark green; dL* vs teal = 12)
+\begin{tikzpicture}[x=1mm,y=1mm, font=\sffamily\footnotesize, >={Stealth[length=2mm]},
+  flow/.style={draw=pIdn, line width=0.5pt, fill=white, rounded corners=1.5pt,
+               minimum width=70mm, text width=64mm, inner xsep=3mm, inner ysep=2mm,
+               align=left, anchor=north west},
+  flowS/.style={flow, draw=pScr},
+  flowI/.style={flow, draw=pInc},
+  excl/.style={draw=gray!70, line width=0.5pt, fill=white, rounded corners=1.5pt,
+               minimum width=70mm, text width=64mm, inner xsep=3mm, inner ysep=2mm,
+               align=left, anchor=north west},
+  hdr/.style={fill=pIdn, text=white, font=\sffamily\footnotesize\bfseries,
+              rounded corners=1.5pt, minimum width=70mm, minimum height=7mm,
+              anchor=north west, align=center, inner sep=1mm},
+  arr/.style={->, draw=gray!80!black, line width=0.5pt}]
+ % tinted phase panels
+ \fill[pIdn!8] (10,-1) rectangle (174,-46);
+ \fill[pScr!8] (10,-48) rectangle (174,-109);
+ \fill[pInc!8] (10,-111) rectangle (174,-141);
+ % phase bands
+ \fill[pIdn] (0,-1) rectangle (8,-46);
+ \fill[pScr] (0,-48) rectangle (8,-109);
+ \fill[pInc] (0,-111) rectangle (8,-141);
+ \node[text=white, rotate=90, font=\sffamily\footnotesize\bfseries] at (4,-23.5) {Identification};
+ \node[text=white, rotate=90, font=\sffamily\footnotesize\bfseries] at (4,-78.5) {Screening};
+ \node[text=white, rotate=90, font=\sffamily\footnotesize\bfseries] at (4,-126) {Included};
+ % header of identification column
+ \node[hdr] at (13,-3) {Identification of studies via databases and registers};
+ % identification
+ \node[flow, minimum height=30mm] (id1) at (13,-13) {Records identified from:\\ \hspace*{3mm}Databases ($n=306$)\\ \hspace*{3mm}Registers ($n=0$)};
+ \node[excl, minimum height=30mm] (id2) at (101,-13) {Records removed \emph{before screening}:\\ \hspace*{3mm}Duplicate records removed ($n=0$)\\ \hspace*{3mm}Records marked as ineligible by automation tools ($n=0$)\\ \hspace*{3mm}Records removed for other reasons ($n=0$)};
+ \draw[arr] (id1.east) -- (id2.west);
+ % screening
+ \node[flowS, minimum height=12mm] (s1) at (13,-56) {Records screened\\ ($n=306$)};
+ \node[excl, minimum height=12mm] (s1x) at (101,-56) {Records excluded\\ ($n=257$)};
+ \node[flowS, minimum height=12mm] (s2) at (13,-75) {Reports sought for retrieval\\ ($n=49$)};
+ \node[excl, minimum height=12mm] (s2x) at (101,-75) {Reports not retrieved\\ ($n=0$)};
+ \node[flowS, minimum height=12mm] (s3) at (13,-94) {Reports assessed for eligibility\\ ($n=49$)};
+ \node[excl, minimum height=12mm] (s3x) at (101,-94) {Reports excluded\\ ($n=0$)};
+ \draw[arr] (id1.south) -- (s1.north);
+ \draw[arr] (s1.south) -- (s2.north);
+ \draw[arr] (s2.south) -- (s3.north);
+ \draw[arr] (s1.east) -- (s1x.west);
+ \draw[arr] (s2.east) -- (s2x.west);
+ \draw[arr] (s3.east) -- (s3x.west);
+ % included
+ \node[flowI, minimum height=20mm] (in) at (13,-118) {Studies included in review\\ ($n=49$)\\ Reports of included studies\\ ($n=49$)};
+ \draw[arr] (s3.south) -- (in.north);
+\end{tikzpicture}
