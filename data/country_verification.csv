@@ -1,0 +1,31 @@
+id,first_author,year,table3_country,pmid,doi,first_author_affiliation,affiliation_country,match
+2,Clifford,2023,Bhutan,36999740,10.1002/cam4.5851,"Early Detection, Prevention and Infections Branch, International Agency for Research on Cancer (IARC/WHO), Lyon, France.",France,NO
+3,Umulisa,2018,Rwanda,29699549,10.1186/s12905-018-0549-5,"Ministry of Health of Rwanda, Kigali, Rwanda.",Rwanda,yes
+4,Hang,2024,Cambodia,37743059,10.3802/jgo.2024.35.e6,"Department of Obstetrics and Gynecology, National Maternal and Child Health Center, Phnom Penh, Cambodia.",Cambodia,yes
+7,Einstein,2014,USA,24719440,10.1128/JCM.00176-14,"Montefiore Medical Center and Albert Einstein College of Medicine, Bronx, New York, USA meinstei@montefiore.org.",USA,yes
+8,Denny,2023,South Africa,37758811,10.1038/s41598-023-43467-2,"Department Obstetrics and Gynaecology, Faculty of Health Sciences, University of Cape Town, Cape Town, South Africa.",South Africa,yes
+9,Ndizeye,2019,Burundi,31494606,10.1136/bmjopen-2019-029088,"Community Medicine Department, Faculty of Medicine, University of Burundi, Bujumbura, Burundi zndizeye@gmail.com.",Burundi,yes
+11,Lin,2025,China,40593618,10.1038/s41467-025-60917-9,"School of Life sciences, South China Normal University, Guangzhou, China.",China,yes
+12,Gao,2025,China,41002010,10.1002/advs.202509468,"Institute of Molecular Medicine (IMM), Renji Hospital, School of Medicine, Shanghai Jiao Tong University, Shanghai, 200240, China.",China,yes
+13,Liu,2024,China,38459454,10.1186/s11658-024-00548-y,"Laboratory of Molecular Diagnostics, College of Pharmaceutical Sciences, Soochow University, Suzhou, 215000, Jiangsu, People's Republic of China.",China,yes
+14,Chen,2024,China,39333528,10.1038/s41467-024-52691-x,"Pilot Base of Food Microbial Resources Utilization of Hubei Province, School of Life Science and Technology, Wuhan Polytechnic University, Wuhan, Hubei, 430023, China.",China,yes
+15,Ghouneimy,2024,Saudi Arabia,38349963,10.1021/acssynbio.3c00655,"Laboratory for Genome Engineering and Synthetic Biology, Division of Biological Sciences, 4700 King Abdullah University of Science and Technology, Thuwal 23955-6900, Saudi Arabia.",Saudi Arabia,yes
+17,Mohammad,2024,USA,38851849,10.1038/s42004-024-01214-2,"Department of Chemical and Biomolecular Engineering, North Carolina State University, Raleigh, NC, 27695, USA.",USA,yes
+18,Barra,2025,Mozambique,40774968,10.1038/s41467-025-62454-x,"Department of Bioengineering, Rice University, Houston, TX, USA.",USA,NO
+19,Lamsisi,2024,Morocco,39772162,10.3390/v16121852,"Biotechnology Unit, Institut Pasteur du Maroc, Casablanca 20360, Morocco.",Morocco,yes
+20,González-González,2025,Mexico,41003582,10.3390/tropicalmed10090272,"Molecular Medicine Laboratory, Unidad Académica de Medicina Humana y Ciencias de la Salud, Universidad Autónoma de Zacatecas, Zacatecas 98160, Mexico.",Mexico,yes
+22,Chang,2023,USA,37989845,10.1038/s41598-023-47582-y,"Department of Bioengineering, Rice University, Houston, TX, USA.",USA,yes
+24,Kundrod,2025,USA,39920386,10.1007/s00216-025-05765-8,"Department of Bioengineering, Rice University, Houston, TX, USA.",USA,yes
+25,Novak,2025,USA,40830554,10.1038/s41598-025-13583-2,"Department of Bioengineering, Rice University, Houston, TX, USA.",USA,yes
+27,Nguyen,2022,PNG,35241461,10.1136/bmjgh-2021-007380,"Daffodil Centre, The University of Sydney, Sydney, New South Wales, Australia diep.nguyen@nswcc.org.au.",Australia,NO
+29,Torres,2018,Brazil,30036381,10.1371/journal.pone.0201262,"Programa de Pós-Graduação em Ciências da Saúde da Universidade Federal do Amazonas (UFAM), Manaus, Amazonas/Brazil.",Brazil,yes
+30,Thai,2025,USA,40861161,10.1016/j.biosx.2025.100658,"Department of Physiology and Biomedical Engineering, Mayo Clinic, Rochester, MN, 55905, USA.",USA,yes
+31,Rodriguez,2023,USA,36893182,10.1371/journal.pone.0282853,"Department of Public Health, College of Health and Human Sciences, Purdue University, West Lafayette, Indiana, United States of America.",USA,yes
+32,Parra,2020,USA,32190430,10.1109/JTEHM.2020.2970694,1Department of BioengineeringRice UniversityHoustonTX77005USA.,USA,yes
+33,Smith,2023,USA,36562325,10.1039/D2LC00885H,"Department of Bioengineering, Rice University, Houston, TX, USA. rkortum@rice.edu.",USA,yes
+35,Im,2015,USA,25870273,10.1073/pnas.1501815112,"Center for Systems Biology, Massachusetts General Hospital, Boston, MA 02114; Department of Radiology, Massachusetts General Hospital, Boston, MA 02114;",USA,yes
+36,Zhu,2019,China,31443221,10.3390/mi10080537,"Institute of Applied Technology, Hefei Institutes of Physical Science, Chinese Academy of Sciences, 2221 Changjiang Road, Hefei 230000, China.",China,yes
+37,Jerip,2025,Malaysia,40033233,10.1186/s12879-025-10714-y,"Department of Obstetrics and Gynaecology, Faculty of Medicine and Health Sciences, Universiti Malaysia Sarawak, Kota Samarahan, Sarawak, 94300, Malaysia.",Malaysia,yes
+43,Siferih,2026,Ethiopia,41588417,10.1186/s12889-026-26382-9,"Department of Obstetrics and Gynecology, School of Medicine, College of Medicine and Health Sciences, Debre Markos University, Debre Markos, Ethiopia. melkamu.siferih@dmu.edu.et.",Ethiopia,yes
+45,Chen,2019,China,30853460,10.1016/j.cca.2019.03.008,"Department of Pathology and Laboratory Medicine, University of Pennsylvania, Philadelphia, PA 19104, United States.",USA,NO
+46,Zamani,2021,USA,34612619,10.1021/acs.accounts.1c00434,"Department of Chemical Engineering, Massachusetts Institute of Technology, Cambridge, Massachusetts 02139, United States.",USA,yes

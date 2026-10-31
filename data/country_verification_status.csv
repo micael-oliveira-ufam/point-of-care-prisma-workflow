@@ -1,0 +1,21 @@
+id,first_author,year,table3_country,pmid,doi,first_author_affiliation,affiliation_country,status,note
+1,Katanga,2021,Tanzania,33497480,10.1111/aogs.14101,"Ocean Road Cancer Institute, Dar es Salaam, Tanzania",Tanzania,verified,"PubMed; sensitivity 90.7, specificity 84.2, N=4080 match Table 3"
+2,Clifford,2023,Bhutan,,10.1002/cam4.5851,"IARC/WHO, Lyon, France",France,verified-setting,from earlier check; setting Bhutan
+5,Lorenzi,2016,Brazil,27070446,10.1002/cncy.21718,"Barretos Cancer Hospital, Sao Paulo, Brazil",Brazil,verified,"PubMed (Barretos Cancer Hospital, Brazil)"
+6,Wang,2025,China,39642773,10.1016/j.jiph.2024.102611,"Chinese Academy of Medical Sciences, Beijing, China (study in Ordos, China)",China,verified,PubMed; published 2024-11-30 (table says 2025)
+10,Zheng,2022,China,36449008,10.1039/d2ay01536f,"Zhengzhou University, Zhengzhou, China",China,verified,"PubMed; 55 clinical samples, sens 97.06, spec 100 match"
+16,Bao,2026,China,41330665,10.1016/j.aca.2025.344830,"Soochow University, Suzhou, China",China,verified-year-discrepancy,PubMed publication date 2025-10-27 (table says 2026)
+21,Seely,2023,USA,37606488,10.1021/acs.analchem.3c01723,"University of Miami, USA",USA,verified,PubMed
+23,Xie,2025,China,40199931,10.1038/s41598-025-95639-x,"Sansure Biotech, Changsha, China",China,verified,"PubMed (Sansure Biotech, China)"
+26,,,,35878625,,,,pending-pubmed,PMID found; metadata pending (rate limit)
+28,Powell,2025,Australia,40789299,10.1016/S2468-2667(25)00172-0,"University of Notre Dame Australia, Fremantle",Australia,verified,PubMed (Lancet Public Health 2025)
+34,Pathania,2019,USA,31879529,10.7150/thno.37187,"Massachusetts General Hospital, Boston, USA",USA,verified,PubMed; DOI in refs.bib (10.7150/thno.3718) differs from PubMed DOI (10.7150/thno.37187): correct in refs.bib
+38,Kunckler,2017,Cameroon,28580596,10.1002/cam4.1089,"University Hospitals of Geneva, Switzerland (study in Dschang, Cameroon)",Switzerland,verified-setting,Setting Cameroon; affiliation Switzerland (as Clifford/Barra)
+39,Sayed,2020,Kenya,31981548,10.1016/S2214-109X(19)30559-5,"Aga Khan University Hospital, Nairobi, Kenya",Kenya,verified,"PubMed (Lancet Glob Health 2020, comment)"
+40,Novak,2016,USA,,,not found in PubMed with 3 query variants,,unresolved,not found in PubMed
+41,Arbyn,2020,Multiple,32247892,10.1016/j.cmi.2020.03.033,"Poljak M (first author), Ljubljana, Slovenia; Arbyn M is 5th author",,attribution-issue,"PubMed record 32247892 (Poljak M first, Arbyn M 5th; Ljubljana). Table row Arbyn 2020 needs the correct reference"
+42,Gupta R,2024,India,,,,,unresolved,meta-analysis of RDTs not found in PubMed
+44,Gupta S,2023,India,38236008,10.4103/ijmr.ijmr_1143_23,"ICMR-NICPR, Noida, India (Gupta R first)",India,verified-year-discrepancy,"PubMed 38236008: 2024 review by Gupta R & Gupta S, Noida, India; table says Gupta S 2023"
+47,Campos,2017,USA,29178896,10.1186/s12885-017-3786-3,"Harvard T.H. Chan School of Public Health, Boston, USA",USA,verified-setting-mismatch,"Modelling study of India, Nicaragua and Uganda; Table 3 USA = affiliation, not setting. Consider Multiple (as Arbyn/Kelly), which changes USA count 15->14 and the 20-country total"
+48,Kuhn,2017,South Africa,,,,,unresolved,not found in PubMed
+49,Kelly,2017,Multiple,,10.1136/sextrans-2016-053070,,,multi-country,systematic review; not assigned to one country

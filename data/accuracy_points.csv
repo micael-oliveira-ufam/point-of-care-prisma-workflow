@@ -1,0 +1,9 @@
+study,year,platform,class,reference_standard,outcome,n,sens,sens_lo,sens_hi,sens_type,spec,spec_lo,spec_hi,spec_type,note
+Katanga,2021,careHPV,Commercial,HC2,HR-HPV detection,4080,90.7,89.6,91.8,exact,84.2,81.2,86.8,exact,
+Umulisa,2018,careHPV,Commercial,PCR,HR-HPV detection,764,71.0,,,exact,88.0,,,exact,
+Clifford,2023,careHPV (self-sampling),Commercial,Histology (hHSIL+),hHSIL+,2590,75.9,56.5,89.7,exact,90.6,89.4,91.7,exact,Table 3 lists PCR GP5+/6+; the Results text reports hHSIL+ accuracy
+Einstein,2014,Xpert HPV,Commercial,HC2,HR-HPV detection,,94,,,approx,92,,,approx,Reported as approximately 94% and 92%
+Zheng,2022,CRISPR-Cas13a/Cas12a,Emerging,PCR,HPV16/18 detection,55,97.1,,,exact,100,,,exact,
+Gao,2025,RotEx-LAMP-LFA,Emerging,Histology,Invasive carcinoma vs non-cancerous,69,94.7,84.7,100,exact,100,,,exact,Specificity CI in the source (90.4-99.9) does not contain 100 and is omitted
+Lin,2025,cc-LFA (CRISPR),Emerging,PCR,HR-HPV detection,,90,,,lower,100,,,exact,Sensitivity reported as >90
+González-González,2025,HDA microfluidic,Emerging,PCR,HPV detection,,95.5,,,exact,100,,,exact,

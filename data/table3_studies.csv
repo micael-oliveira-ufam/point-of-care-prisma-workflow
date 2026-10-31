@@ -1,0 +1,50 @@
+category,id,first_author,year,country,poc_platform,self_sampling,n,sensitivity,specificity,gold_standard
+Commercial Platforms,1,Katanga,2021,Tanzania,careHPV,No,"4,080",90.7,84.2,HC2
+Commercial Platforms,2,Clifford,2023,Bhutan,careHPV,Yes,"2,590",75.9,90.6,PCR GP5+/6+
+Commercial Platforms,3,Umulisa,2018,Rwanda,careHPV,No,764,71.0,88.0,PCR
+Commercial Platforms,4,Hang,2024,Cambodia,careHPV,Yes,375,Agreement 95.7% (κ=0.66),NR,PCR
+Commercial Platforms,5,Lorenzi,2016,Brazil,careHPV,No,NR,NR,NR,PCR
+Commercial Platforms,6,Wang,2025,China,careHPV,No,NR,NR,NR,PCR
+Commercial Platforms,7,Einstein,2014,USA,Xpert HPV,No,NR,~94,~92,HC2
+Commercial Platforms,8,Denny,2023,South Africa,Xpert HPV,No,NR,NR,NR,PCR
+Commercial Platforms,9,Ndizeye,2019,Burundi,OncoE6,No,NR,NR,NR,PCR
+CRISPR-Cas Technologies,10,Zheng,2022,China,CRISPR Cas13a/Cas12a,No,55,97.1,100,PCR
+CRISPR-Cas Technologies,11,Lin,2025,China,cc-LFA (CRISPR),No,NR,>90,100,PCR
+CRISPR-Cas Technologies,12,Gao,2025,China,RotEx-LAMP-LFA,Yes,69,94.7,100,Histology
+CRISPR-Cas Technologies,13,Liu,2024,China,H-MRC12a (RPA-CRISPR),No,34,1 copy/μL (LoD),NR,qPCR
+CRISPR-Cas Technologies,14,Chen,2024,China,Scas12a (split crRNA),No,NR,Attomolar (LoD),NR,PCR
+CRISPR-Cas Technologies,15,Ghouneimy,2024,Saudi Arabia,CRISPR multiplex,No,NR,NR,100,PCR
+CRISPR-Cas Technologies,16,Bao,2026,China,RPA/CRISPR-Cas12a,No,NR,Attomolar (LoD),NR,PCR
+CRISPR-Cas Technologies,17,Mohammad,2024,USA,CRISPR ratiometric,No,NR,NR,NR,PCR
+"Isothermal Amplification (LAMP, RPA, HDA)",18,Barra,2025,Mozambique,LAMP,Yes,NR,NR,NR,PCR
+"Isothermal Amplification (LAMP, RPA, HDA)",19,Lamsisi,2024,Morocco,LAMP (reviews),No,N/A,N/A,N/A,N/A
+"Isothermal Amplification (LAMP, RPA, HDA)",20,González-González,2025,Mexico,HDA,No,NR,95.5,100,PCR
+"Isothermal Amplification (LAMP, RPA, HDA)",21,Seely,2023,USA,RPA (14 HR-HPV),No,NR,NR,NR,PCR
+"Isothermal Amplification (LAMP, RPA, HDA)",22,Chang,2023,USA,Tailed primer,No,NR,NR,NR,PCR
+"Isothermal Amplification (LAMP, RPA, HDA)",23,Xie,2025,China,PCR open source,No,NR,NR,NR,PCR
+mRNA (approximation to Methylation),24,Kundrod,2025,USA,mRNA HPV16/18,No,NR,NR,NR,PCR
+mRNA (approximation to Methylation),25,Novak,2025,USA,RT-RPA mRNA,No,NR,NR,NR,PCR
+Self-Sampling,26,Vallely,2022,PNG,HPV DNA POC,Yes,NR,NR,NR,PCR
+Self-Sampling,27,Nguyen,2022,PNG,Modeling,Yes,NR,N/A,N/A,N/A
+Self-Sampling,28,Powell,2025,Australia,HPV POC,Yes,NR,NR,NR,PCR
+Self-Sampling,29,Torres,2018,Brazil,Protein E6,Yes,NR,NR,NR,PCR
+Self-Sampling,30,Thai,2025,USA,Urine POC,Yes (urine),NR,NR,NR,PCR
+Self-Sampling,31,Rodriguez,2023,USA,Acceptability,Yes,NR,N/A,N/A,N/A
+Other POC Technologies,32,Parra,2020,USA,Low cost,No,N/A,N/A,N/A,N/A
+Other POC Technologies,33,Smith,2023,USA,Hybrid capture on paper,No,NR,NR,NR,PCR
+Other POC Technologies,34,Pathania,2019,USA,Microholography + DL,No,NR,NR,NR,N/A
+Other POC Technologies,35,Im,2015,USA,Smartphone + diffraction,No,NR,NR,NR,PCR
+Other POC Technologies,36,Zhu,2019,China,Lab-on-chip PCR,No,NR,NR,NR,PCR
+Other POC Technologies,37,Jerip,2025,Malaysia,Biosensor SD M10,No,NR,Agreement (concordance),NR,PCR
+Other POC Technologies,38,Kunckler,2017,Cameroon,Screen-and-treat,No,NR,NR,NR,PCR
+Other POC Technologies,39,Sayed,2020,Kenya,HIV + POC,No,NR,NR,NR,PCR
+Other POC Technologies,40,Novak,2016,USA,Simulated samples,No,NR,N/A,N/A,N/A
+Reviews and Context (non-primary),41,Arbyn,2020,Multiple,Review Validation,No,N/A,~91-94,~91-94,N/A
+Reviews and Context (non-primary),42,Gupta R,2024,India,Meta-analysis RDTs,No,N/A,NR,NR,N/A
+Reviews and Context (non-primary),43,Siferih,2026,Ethiopia,Scoping review África,No,N/A,NR,NR,N/A
+Reviews and Context (non-primary),44,Gupta S,2023,India,Review limited settings,No,N/A,NR,NR,N/A
+Reviews and Context (non-primary),45,Chen,2019,China,Review POC diseases,No,N/A,N/A,N/A,N/A
+Reviews and Context (non-primary),46,Zamani,2021,USA,POC strategies,No,N/A,N/A,N/A,N/A
+Reviews and Context (non-primary),47,Campos,2017,USA,Cost-effectiveness modeling,No,N/A,N/A,N/A,N/A
+Reviews and Context (non-primary),48,Kuhn,2017,South Africa,Commentary,No,N/A,N/A,N/A,N/A
+Reviews and Context (non-primary),49,Kelly,2017,Multiple,Review careHPV/OncoE6,Yes,N/A,NR,NR,N/A

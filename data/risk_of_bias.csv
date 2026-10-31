@@ -1,0 +1,7 @@
+panel,category,value,unit,note
+overall,Low,16,studies,16/25 (64%)
+overall,Moderate,7,studies,7/25 (28%)
+overall,High,2,studies,2/25 (8%)
+domain,Patient selection,15,% high risk,
+domain,Flow and timing,20,% high risk,
+domain,Index test,8,% high risk,

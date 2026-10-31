@@ -1,0 +1,6 @@
+platform,studies_n,sensitivity_range,specificity_range,largest_n_study
+careHPV,4 with data,71-90.7%,84.2-90.6%,"Katanga 2021 (n=4,080)"
+Xpert HPV,2 with data,~94%,~92%,Einstein 2014
+CRISPR-Cas12a/13a,4 with data,94.7-97.1%,100%,Zheng 2022 (n=55)
+LAMP,2 with data,94.7%,100%,Gao 2025 (n=69)
+HDA,1 with data,95.5%,100%,González-González 2025

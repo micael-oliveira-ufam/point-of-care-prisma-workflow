@@ -1,0 +1,6 @@
+element,letter,description
+Population,P,"Women of screening age for cervical cancer (≥18 years), including general and high-risk populations (HIV+, immunosuppressed), without restrictions"
+Index,I,"Molecular POC tests for HR-HPV, including platforms based on PCR (Xpert HPV, careHPV), isothermal amplification (LAMP, RPA), CRISPR-Cas, mRNA detection, and molecular lateral flow tests"
+Comparator,C,"Gold standard defined as laboratory molecular tests (conventional PCR, Hybrid Capture 2, GP5+/6+ PCR) and/or histopathological findings (CIN2+/hHSIL+)."
+Outcomes,O,"Primary: Sensitivity, specificity, positive and negative predictive values for detection of HR-HPV and/or high-grade intraepithelial lesions (CIN2+/hHSIL+). Secondary: Concordance between collection methods (clinician-collected vs. self-sampling), patient acceptability, time to result, and implementation feasibility in low-resource settings"
+Studies,S,"Observational studies (cross-sectional, cohort), clinical trials, diagnostic validation studies, and implementation studies reporting accuracy or concordance data"
